@@ -481,9 +481,9 @@ public class Game extends Canvas implements Runnable {
 		g.setColor(Color.YELLOW);
 		g.drawString(time.getTime(), (getWidth() - 58), (getHeight() - 3));
 		g.setColor(Color.GREEN);
-		if(backgroundMusic.getActive()) {
-			g.drawString("MUSIC is ON ", 3, getHeight() - 3);
-		}
+//		if(backgroundMusic.getActive()) {
+//			g.drawString("MUSIC is ON ", 3, getHeight() - 3);
+//		}
 		g.dispose();
 		bs.show();
 	}

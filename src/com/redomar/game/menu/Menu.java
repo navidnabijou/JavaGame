@@ -51,10 +51,10 @@ public class Menu implements Runnable {
 			splash.splashOn();
 			splash.setProgress(10, "Initializing SFX");
 
-			splash.setProgress(30, "Loading Music");
-			Game.setBackgroundMusic(new AudioHandler("/music/Towards The End.mp3"));
-			splash.setProgress(40, "Setting Volume");
-			Game.getBackgroundMusic().setVolume(-20);
+//			splash.setProgress(30, "Loading Music");
+//			Game.setBackgroundMusic(new AudioHandler("/music/Towards The End.mp3"));
+//			splash.setProgress(40, "Setting Volume");
+//			Game.getBackgroundMusic().setVolume(-20);
 			splash.setProgress(50, "Acquiring data: Multiplayer");
 			Thread.sleep(125);
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());

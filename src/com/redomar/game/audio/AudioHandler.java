@@ -40,7 +40,6 @@ public class AudioHandler {
 	public void setVolume(float velocity){
 		FloatControl volume = (FloatControl) clip.getControl(FloatControl.Type.MASTER_GAIN);
 		volume.setValue(velocity);
-
 	}
 
 	public void stop() {
